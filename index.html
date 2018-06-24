@@ -142,20 +142,20 @@
     </div>
     <section id="section-newsletter" class="bg-secondary">
       <div class="container">
-        <form class="py-5 text-white">
+        <form action="https://formspree.io/davis@marketingbh.com" method="POST" class="py-5 text-white">
           <h2 class="text-center">Sign-up for our newsletter</h2>
           <p>Receive the latest news and offers by signing up to our newsletter.</p>
           <div class="row">
             <div class="col-12 col-sm-6">
               <div class="form-group">
                 <label for="input-name" class="sr-only">Your name:</label>
-                <input type="text" class="form-control" placeholder="Firstname Lastname" id="input-name">
+                <input type="text" class="form-control" placeholder="Firstname Lastname" id="input-name" name="name">
               </div>
             </div>
             <div class="col-12 col-sm-6">
               <div class="form-group">
                 <label for="input-email" class="sr-only">Your email:</label>
-                <input type="email" class="form-control" placeholder="mail@example.com" id="input-email">
+                <input name="_replyto" type="email" class="form-control" placeholder="mail@example.com" id="input-email">
               </div>
             </div>
           </div>
@@ -167,7 +167,7 @@
           </div>
           <div class="d-flex justify-content-between">
             <small class="form-text">You can unsubcribe from the mailing list at any time.</small>
-            <button type="submit" class="btn btn-dark">Sign up</button>
+            <button type="submit" value="Sign Up" class="btn btn-dark">Sign up</button>
           </div>
         </form>
         <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">>
